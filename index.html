@@ -1,0 +1,14 @@
+<html ng-app="shoutApp">
+<head>
+	<title>Shout Out!</title>
+	<script src="bower_components/angular/angular.min.js"></script>
+	<script src="js/app.js"></script>
+	<script src="js/controller.js"></script>
+	<script src="js/service.js"></script>
+</head>
+<body>
+	<div ng-controller="SearchCtrl as vm">
+		<input type="text" ng-model="query" ng-keypress="vm.handleQuery($event, query)">
+	</div>
+</body>
+</html>

@@ -1,0 +1,20 @@
+{
+  "name": "shout_client",
+  "version": "0.0.0",
+  "authors": [
+    "August Nam-Ki Ek <augek158@student.liu.se>"
+  ],
+  "main": "index.html",
+  "moduleType": [
+    "es6"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
